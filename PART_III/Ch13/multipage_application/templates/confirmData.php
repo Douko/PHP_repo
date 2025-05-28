@@ -18,7 +18,7 @@
         <p>Data received:
             <div class="form-group">
                 <label for="customerName">Your name</label>
-                <input class="from-control"  name="customerName" value="<?= $customerName ?>"
+                <input class="form-control"  name="customerName" value="<?= $customerName ?>"
                     id="customerName" disabled>
             </div>
 
