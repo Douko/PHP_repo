@@ -7,7 +7,7 @@ request.onload = (e) => {
   }
 };
 
-request.open("GET", "content/data.xml");
+request.open("GET", "content/artists.xml");
 request.responseType = "document";
 request.setRequestHeader("Accept", "text/xml");
 request.send(null);
